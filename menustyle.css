@@ -1,0 +1,43 @@
+*{
+    background-color: beige;
+}
+#logo{
+    display:block;
+    margin-left: 28%;
+    margin-right: 0%;
+    text-align: center;
+    width: 35%;
+    
+}
+.menu{
+    color: #c30d0d;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    text-decoration-line:underline;
+}
+main{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    column-gap: normal;
+}
+.course{
+    color: rgb(52, 32, 7);
+    font-size: 32px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    margin-top: 10%;
+    text-decoration-line:underline;
+}
+
+.dish{
+    color:rgb(221, 154, 8) ;
+    text-decoration: 2px rgb(52, 32, 7) underline;
+    font-size: x-large;
+}
+.description{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
